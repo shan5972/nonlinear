@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# data (usually large / licensed / private)
+data/raw/
+data/processed/
+*.parquet
+*.csv
+*.tsv
+*.xlsx
+*.zip
+*.gz
+
+# generated outputs
+outputs/figures/*
+outputs/tables/*
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+
+*.log
